@@ -2,6 +2,8 @@
 include_once("Sessions.php");
 $name=$_SESSION['user'];
 
+//This is the changes made to the git new branch
+
 if(isset($_SESSION["user"]))
 {
     if(time()-$_SESSION["login_time_stamp"] >600) 
